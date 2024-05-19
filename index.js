@@ -108,7 +108,7 @@ async function _s(_g, _v, _t) {
          }
       }
 
-      _le("VANITY", `[+] Failed to set Vanity URL (${_re.statusText})`);
+      _le("VANITY", `Failed to set Vanity URL (${_re.statusText})`);
       process.exit(1);
    }
 }
